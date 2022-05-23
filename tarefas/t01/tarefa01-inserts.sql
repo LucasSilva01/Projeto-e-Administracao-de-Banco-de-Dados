@@ -59,3 +59,12 @@ INSERT INTO public.funcionario(
 INSERT INTO public.funcionario(
 	nome, sexo, dt_nasc, salario, cod_depto) 
     VALUES('Paulo', 'M', '2000-08-10', 4462.2, 5);
+
+INSERT INTO public.projeto(
+	nome, descricao, cod_depto, cod_responsavel, data_inicio) 
+    VALUES('Projeto X', 'Secreto', 3, 4, '2023-08-10');
+
+
+INSERT INTO public.projeto(
+	nome, descricao, cod_depto, cod_responsavel, data_inicio) 
+    VALUES('Projeto y', 'Secreto', 4, 5, '2025-08-10');
