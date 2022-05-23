@@ -42,3 +42,16 @@ INSERT INTO public.funcionario(
 INSERT INTO public.funcionario(
 	nome, sexo, dt_nasc, salario, cod_depto) 
     VALUES('Paulinha Caldeirão', 'F', '2000-06-08', 5462.2, 3);
+
+INSERT INTO public.departamento(
+	descricao, cod_gerente)
+	VALUES ('Departmaneto de Limpeza', 5);
+
+INSERT INTO public.funcionario(
+	nome, sexo, dt_nasc, salario, cod_depto) 
+    VALUES('Tania Silva', 'F', '2001-07-09', 4462.2, 5);
+
+
+INSERT INTO public.funcionario(
+	nome, sexo, dt_nasc, salario, cod_depto) 
+    VALUES('João Maria', 'M', '2001-08-10', 3462.2, 5);
