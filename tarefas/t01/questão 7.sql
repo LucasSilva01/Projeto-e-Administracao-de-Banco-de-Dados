@@ -1,6 +1,6 @@
 
 /*Criando a View*/
-CREATE view total_funciONarios_por_departameono SELECT d.descricao nome_departamento, count(*) total_funciONarios_por_departameono
+CREATE view total_funciONarios_por_departameono AS SELECT d.descricao nome_departamento, count(*) AS total_funciONarios_por_departameono
 FROM funciONario f 
 INNER JOIN departamento d 
 ON f.cod_depto = d.codigo GROUP BY d.codigo ORDER BY d.codigo ASC;

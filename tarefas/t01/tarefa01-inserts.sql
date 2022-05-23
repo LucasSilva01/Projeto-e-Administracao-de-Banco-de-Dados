@@ -80,3 +80,9 @@ INSERT INTO public.atividade(
 INSERT INTO public.atividade(
 	nome, descricao, cod_responsavel, data_inicio) 
     VALUES('Atividade WEV', 'Começando', 2, '2022-09-11');
+
+INSERT INTO public.atividade_projeto(cod_projeto, cod_atividade) 
+	VALUES(1, 1);
+
+INSERT INTO public.atividade_projeto(cod_projeto, cod_atividade) 
+	VALUES(2, 2);
