@@ -62,9 +62,21 @@ INSERT INTO public.funcionario(
 
 INSERT INTO public.projeto(
 	nome, descricao, cod_depto, cod_responsavel, data_inicio) 
-    VALUES('Projeto X', 'Secreto', 3, 4, '2023-08-10');
+    VALUES('Projeto X', 'Secreto', 1, 1, '2023-08-10');
+
+INSERT INTO public.projeto(
+	nome, descricao, cod_depto, cod_responsavel, data_inicio) 
+    VALUES('Projeto Z', 'Secreto', 2, 2, '2023-08-10');
 
 
 INSERT INTO public.projeto(
 	nome, descricao, cod_depto, cod_responsavel, data_inicio) 
     VALUES('Projeto y', 'Secreto', 4, 5, '2025-08-10');
+
+INSERT INTO public.atividade(
+	nome, descricao, cod_responsavel, data_inicio) 
+    VALUES('Atividade Segundaria', 'Começando', 4, '2025-09-11');
+
+INSERT INTO public.atividade(
+	nome, descricao, cod_responsavel, data_inicio) 
+    VALUES('Atividade WEV', 'Começando', 2, '2022-09-11');
