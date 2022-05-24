@@ -4,6 +4,7 @@ RETURNS trigger AS $$
 BEGIN
     UPDATE voo
     SET num_passageiros = num_passageiros + 1;
+    WHERE voo.codigo = new.voo;
 END;
 
 $$ LANGUAGE plpgsql;
